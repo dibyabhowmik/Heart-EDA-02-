@@ -17,12 +17,19 @@ Understand guest preferences through special requests and other booking details.
 **Tools Used:**
 
 Python
+
 Pandas & NumPy
+
 Matplotlib & Seaborn
+
 Statsmodels
+
 kaggle Code
+
 Kaggle Hotel Booking Dataset
-Process:
+
+**Process:**
+
 The dataset was first checked for missing values, duplicate records, incorrect data types, and unusual values. Duplicate bookings were removed, missing categorical values were handled, and date fields were converted into proper datetime format.
 
 New features such as total nights, total guests, and lodging revenue were created to support the analysis. The data was then analyzed using descriptive statistics, grouping, correlation analysis, visualizations, and regression techniques.
